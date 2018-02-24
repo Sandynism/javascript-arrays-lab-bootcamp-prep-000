@@ -29,3 +29,7 @@ function prependKitten(name) {
 function removeLastKitten() {
   return kittens.slice(0, kittens.length-1) //removes only one kitten at the end of array
 }
+
+function removeFirstKitten() {
+  return kittens.slice(1)
+}
