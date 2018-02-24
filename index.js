@@ -19,5 +19,9 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(name) {
-  return [...kittens, name]
+  return [...kittens, name] //use ...spread operator to preserve original array
+}
+
+function prependKitten(name) {
+  return [name, ...kittens]
 }
